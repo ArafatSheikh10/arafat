@@ -1,0 +1,479 @@
+/* XL Device :1200px. */
+@media (min-width: 1300px) and (max-width: 1449px) {
+    
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+   
+    
+
+}
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .nav-menu li a {
+        font-size: 15px;
+    }
+
+    .services-box__header h3 {
+        font-size: 17px;
+    }
+
+    .developer-info {
+        font-size: 85px;
+    }
+
+    .client-info {
+        left: -7%;
+    }
+
+    .footer-box p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+}
+ 
+
+
+
+/* LG Device :992px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .nav-area.sticky{
+        display: flex;
+    }
+
+    .header-right .nav-menu{
+        display: none;
+    }
+
+    .nav_trigger{
+        display: flex;
+    }
+
+    .hero-area{
+        display: none;
+    }
+
+    .mobail-hero-area{
+        display: flex;
+    }
+
+    .services-box__header h3 {
+        font-size: 17px;
+    }
+
+    .developer-info {
+        font-size: 75px;
+    }
+
+    .about-content p {
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .activity-capsule {
+        width: 100px;
+        height: 42px;
+    }
+        
+    .activity-capsule-1{
+        top: -10%;
+    }
+    .activity-capsule-2{
+        top: -10%;
+    }
+    
+    .recent_work-card {
+        height: 500px;
+    }
+
+    .services-box__header {
+        grid-template-columns: 43% 50% 7%;
+    }
+
+    .services-box__header p {
+        font-size: 13px;
+    }
+
+    .skill-wraper {
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .skill-item svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .project-area {
+        padding: 60px 0;
+    }
+
+    .project-card__image {
+        height: 240px;
+    }
+
+    .client-info {
+        left: -9%;
+    }
+    
+    .testiomonial-quote {
+        font-size: 80px;
+    }
+
+    .testiomonial-card__wraper .owl-nav .owl-prev {
+        left: 41% !important;
+    }
+
+    .testiomonial-card__wraper .owl-nav .owl-next {
+        right: 40% !important;
+    }
+
+    .footer-box h4 {
+        font-size: 21px;
+    }
+
+    .footer-box h3 {
+        font-size: 24px;
+    }
+
+    .footer-box .logo {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .footer-box p {
+        font-size: 14px;
+    }
+
+    .footer-box form {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin: 30px 0 77px;
+        align-items: flex-start;
+    }
+
+    .footer-box input {
+        padding: 10px 20px;
+    }
+
+    .footer-box button {
+        padding: 10px 20px;
+    }
+
+    .footer-big-box {
+        height: 300px;
+    }
+
+    
+
+   
+}
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .nav-area.sticky{
+        display: flex;
+    }
+
+    .header-right .nav-menu{
+        display: none;
+    }
+
+    .hero-area {
+        padding: 126px 0 80px;
+    }
+
+    .hero-area{
+        display: none;
+    }
+
+    .mobail-hero-area{
+        display: flex;
+        padding: 150px 15px 80px 15px;
+    }
+
+    .hero-image{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .mobail-hero-area .hero-content{
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .contact-information {
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .lets-talk_btn {
+        padding: 0 18px;
+        font-size: 14px;
+    }
+
+    .nav_trigger{
+        display: flex;
+    }
+
+    .developer-info {
+        font-size: 55px;
+    }
+    
+    .about-content p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .activity-capsule {
+        width: 74px;
+        height: 35px;
+    }
+
+    .project-details__single {
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+
+    .activity-capsule-1{
+        top: -10%;
+    }
+    .activity-capsule-2{
+        top: -10%;
+    }
+    .activity-capsule-3{
+        bottom: -4%;
+    }
+    .activity-capsule-4{
+        bottom: 5%;
+    }
+    
+    .recent_work-card {
+        height: 350px;
+    }
+
+    .recent_work-card h2 {
+        font-size: 22px;
+    }
+
+    .discover-btn {
+        font-size: 12px;
+    }
+
+    .services-area {
+        padding: 50px 0 100px 0;
+    }
+
+    .services-wraper {
+        padding: 50px 20px;
+    }
+
+    .services-box__header {
+        grid-template-columns: 90% 10%;
+    }
+
+    .services-box__header h3 {
+        font-size: 14px;
+    }
+
+    .dropdown-arrow__btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .services-box__header p {
+        display: none;
+    }
+
+    .services-list__wraper {
+        gap: 40px 20px;
+    }
+
+    .services-list li {
+        font-size: 10px;
+    }
+
+    .skill-wraper {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .skill-item {
+        height: 156px;
+    }
+
+    .skill-item svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skill-item span {
+        font-size: 12px;
+    }
+
+    .project-area {
+        padding: 60px 0;
+    }
+
+    .project-card__image {
+        height: 240px;
+    }
+
+    .testiomonial-wraper {
+        padding: 50px 20px;
+    }
+
+    .testiomonial-card {
+        height: 330px;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .client-info {
+        top: 10%;
+        left: 6%;
+        transform: rotate(0deg);
+    }
+
+    .client-image img {
+        transform: rotate(0deg);
+    }
+
+    .client-n-w span {
+        font-size: 12px;
+    }
+
+    .client-description {
+        border: none;
+        border-top: 1px solid var(--border-color);
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .client-description p {
+        font-size: 13px;
+    }
+    
+    .testiomonial-quote {
+        font-size: 43px;
+        position: absolute;
+        top: 2%;
+        right: 5%;
+    }
+
+    .testiomonial-card__wraper .owl-nav .owl-prev {
+        left: 32% !important;
+        bottom: -6% !important;
+    }
+
+    .testiomonial-card__wraper .owl-nav .owl-next {
+        right: 28% !important;
+        bottom: -5.7% !important;
+    }
+
+    .footer-wraper {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-box h4 {
+        font-size: 21px;
+    }
+
+    .footer-box h3 {
+        font-size: 24px;
+    }
+
+    .footer-box .logo {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .footer-box p {
+        font-size: 14px;
+    }
+
+    .footer-box form {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin: 30px 0 77px;
+        align-items: flex-start;
+    }
+
+    .footer-box input {
+        padding: 10px 20px;
+    }
+
+    .footer-box button {
+        padding: 10px 20px;
+    }
+
+    .footer-big-box {
+        height: 300px;
+    }
+
+    .footer-box__4 {
+        height: 90px;
+    }
+
+
+
+}
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .contact-information__mobail {
+        flex-direction: row;
+    }
+
+    .single-image img {
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .single-image img.active-slide{
+        height: 300px !important;
+    }
+    
+}
