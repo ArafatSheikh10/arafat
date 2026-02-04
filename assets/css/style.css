@@ -79,7 +79,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--white-color);
+    border: 2px solid var(--white-color);
     border-radius: 100%;
 }
 
