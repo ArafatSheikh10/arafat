@@ -213,7 +213,14 @@ $(document).ready(function() {
                 stagePadding: 150,
             }
         }
-    })
+    });
+
+
+    if ($('.testiomonial-card__wraper').hasClass('owl-loaded')) {
+        console.log('Owl Carousel is initialized and loaded.');
+    } else {
+        console.log('Owl Carousel is not yet loaded.');
+    }
     //=============== Testimonial Card End
 
 
@@ -351,3 +358,12 @@ $(document).ready(function() {
 
 
 
+    // Get audio element
+    const audio = document.getElementById("bgMusic");
+    const loader = document.getElementById("loader");
+
+    // Wait for user interaction to start music
+    loader.addEventListener('click', function() {
+        audio.play();
+        loader.style.display = 'none'; 
+    });
